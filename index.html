@@ -1,3 +1,197 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Momen El Masry | Brand Designer</title>  <script type="module" crossorigin src="./assets/index-_rlJg5-C.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-Dp42s3Ny.css">
-</head><body><div id="root"></div></body></html>
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>مؤمن المصري | مصمم هويات بصرية</title>
+<meta name="description" content="مؤمن المصري — مصمم هويات بصرية من مصر. هويات لها فكرة وشكل يفضل في الذاكرة: استراتيجية براند، هوية بصرية، وتغليف."/>
+<meta property="og:title" content="مؤمن المصري | مصمم هويات بصرية"/>
+<meta property="og:description" content="هويات لها فكرة. وشكل يفضل في الذاكرة."/>
+<meta property="og:image" content="https://momenn9x.github.io/maomen.github.io/assets/p0-0-B2a0yU93.jpg"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Inter:wght@500;700;800&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+
+<header class="hdr" id="hdr">
+  <div class="wrap hdr-in">
+    <a class="logo" href="#home">مؤمن المصري</a>
+    <nav class="nav" id="nav" aria-label="التنقل الرئيسي">
+      <a href="#work">الأعمال</a>
+      <a href="#services">الخدمات</a>
+      <a href="#about">عني</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+    <div class="hdr-side">
+      <a class="btn btn-solid btn-sm" data-wa target="_blank" rel="noopener">ابدأ مشروعك</a>
+      <button class="menu-btn" id="menuBtn" aria-label="فتح القائمة" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="wrap hero-in">
+      <div class="hero-txt">
+        <p class="pill rev">أهلاً.. أنا مؤمن المصري</p>
+        <h1 class="rev">هويات لها فكرة.<br/><span class="accent">وشكل يفضل في الذاكرة.</span></h1>
+        <p class="lead rev">مصمم هويات بصرية من مصر. بشتغل مع البراندات من فهم فكرتها وتحديد اتجاهها، لحد ما تتحول لهوية واضحة تعيش على المنتج، التغليف، وكل نقطة تواصل مع الناس.</p>
+        <div class="hero-btns rev">
+          <a class="btn btn-solid" href="#work">استكشف الأعمال</a>
+          <a class="btn btn-ghost" data-wa target="_blank" rel="noopener">ابدأ مشروعك</a>
+        </div>
+        <div class="stats rev">
+          <div class="stat"><b dir="ltr">+6</b><span>سنين خبرة</span></div>
+          <div class="stat"><b dir="ltr">+22</b><span>مشروع منشور</span></div>
+          <div class="stat"><b>مصر والمنطقة</b><span>نطاق الشغل</span></div>
+        </div>
+      </div>
+      <figure class="hero-photo rev">
+        <img src="assets/momen.jpg" alt="مؤمن المصري، مصمم هويات بصرية" width="420" height="520" fetchpriority="high"/>
+        <figcaption class="photo-chip">مصمم هويات بصرية</figcaption>
+      </figure>
+    </div>
+    <div class="wrap socials rev">
+      <span>تابعني على</span>
+      <a href="https://www.behance.net/momennewten" target="_blank" rel="noopener" aria-label="Behance">Behance</a>
+      <a href="https://www.instagram.com/momen_hasaballah" target="_blank" rel="noopener" aria-label="Instagram">Instagram</a>
+    </div>
+  </section>
+
+  <!-- Selected work -->
+  <section class="sec" id="work">
+    <div class="wrap">
+      <div class="sec-head rev">
+        <p class="kicker">المشاريع</p>
+        <h2>أعمال مختارة</h2>
+        <p class="sec-sub">هويات صممتها لبراندات مختلفة؛ لكل مشروع فكرته، لغته، وطريقته في الظهور.</p>
+      </div>
+      <div class="grid" id="featuredGrid"></div>
+    </div>
+  </section>
+
+  <!-- Archive -->
+  <section class="sec sec-tint" id="archive">
+    <div class="wrap">
+      <div class="sec-head rev">
+        <p class="kicker">كل الشغل</p>
+        <h2>أرشيف المشاريع</h2>
+        <p class="sec-sub">باقي المشاريع مرتبة حسب نوع الشغل. اضغط على أي مشروع لتشوف تفاصيله وصوره.</p>
+      </div>
+      <div class="filters rev" id="filters" role="tablist" aria-label="فلترة المشاريع">
+        <button class="chip on" data-f="all">الكل</button>
+        <button class="chip" data-f="Branding">هوية بصرية</button>
+        <button class="chip" data-f="Packaging">تغليف</button>
+        <button class="chip" data-f="UI">واجهات</button>
+        <button class="chip" data-f="Web">مواقع</button>
+      </div>
+      <div class="agrid" id="archiveGrid"></div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="sec" id="services">
+    <div class="wrap">
+      <div class="sec-head rev">
+        <p class="kicker">الخدمات</p>
+        <h2>إيه اللي أقدر أعمله لبراندك؟</h2>
+      </div>
+      <div class="svcs">
+        <article class="svc rev">
+          <span class="svc-n" dir="ltr">01</span>
+          <h3>استراتيجية البراند</h3>
+          <p>فهم المشروع والجمهور والمنافسين، وتحديد التوجه والرسالة، حسب نطاق كل مشروع.</p>
+        </article>
+        <article class="svc rev">
+          <span class="svc-n" dir="ltr">02</span>
+          <h3>الهوية البصرية</h3>
+          <p>تصميم الشعار والنظام البصري والألوان والخطوط والعناصر والتطبيقات.</p>
+        </article>
+        <article class="svc rev">
+          <span class="svc-n" dir="ltr">03</span>
+          <h3>التغليف وتطبيقات الهوية</h3>
+          <p>نقل الهوية إلى العبوات والمطبوعات والمواد التي يراها العميل ويستخدمها.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="sec sec-tint" id="about">
+    <div class="wrap about-in">
+      <div class="rev">
+        <p class="kicker">عني</p>
+        <h2>بصمّم بسؤال، مش بذوق بس</h2>
+      </div>
+      <div class="about-txt rev">
+        <p>أنا مؤمن المصري، مصمم هويات بصرية من مصر. بحب أبدأ بالسؤال قبل ما أبدأ في الرسم: البراند ده بيكلم مين؟ وإيه اللي المفروض الناس تفتكره عنه؟</p>
+        <p>من هنا ببني اتجاه بصري له سبب، وبحوّله لهوية متماسكة تشتغل في الاستخدام الحقيقي، من الشعار لحد التغليف والتطبيقات. بشتغل مع مشاريع في مصر والمنطقة، وبحب الشغل اللي فيه مساحة لفكرة قوية وتفاصيل متقنة.</p>
+        <p class="exp"><b dir="ltr">6</b> سنين خبرة في تصميم الهويات البصرية.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process -->
+  <section class="sec" id="process">
+    <div class="wrap">
+      <div class="sec-head rev">
+        <p class="kicker">طريقة العمل</p>
+        <h2>أربع خطوات، من غير تعقيد</h2>
+      </div>
+      <ol class="steps">
+        <li class="step rev"><b dir="ltr">01</b><h3>أفهم</h3><p>المشروع، الجمهور، السوق، والمطلوب.</p></li>
+        <li class="step rev"><b dir="ltr">02</b><h3>أحدد الاتجاه</h3><p>الفكرة الرئيسية والاتجاه البصري المناسب.</p></li>
+        <li class="step rev"><b dir="ltr">03</b><h3>أصمم</h3><p>الهوية وتطبيقاتها مع مراجعة التفاصيل.</p></li>
+        <li class="step rev"><b dir="ltr">04</b><h3>أسلّم</h3><p>الملفات النهائية المنظمة وما اتفقنا عليه ضمن نطاق المشروع.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="sec" id="contact">
+    <div class="wrap">
+      <div class="cta rev">
+        <h2>عندك مشروع محتاج هوية تعبّر عنه؟<br/>خلينا نتكلم.</h2>
+        <div class="cta-btns">
+          <a class="btn btn-light" data-wa target="_blank" rel="noopener">واتساب — رد مباشر مني</a>
+          <a class="btn btn-line" href="https://www.behance.net/momennewten" target="_blank" rel="noopener">Behance — الشغل كامل بالتفصيل</a>
+          <a class="btn btn-line" href="https://www.instagram.com/momen_hasaballah" target="_blank" rel="noopener">Instagram — شغل قصير ويوميات</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="ftr">
+  <div class="wrap ftr-in">
+    <a class="logo" href="#home">مؤمن المصري</a>
+    <nav class="ftr-nav" aria-label="روابط أساسية">
+      <a href="#work">الأعمال</a>
+      <a href="#services">الخدمات</a>
+      <a href="#about">عني</a>
+      <a href="#contact">تواصل</a>
+    </nav>
+    <p class="copy">© <span id="year">2026</span> مؤمن المصري. كل الحقوق محفوظة.</p>
+  </div>
+</footer>
+
+<!-- Project modal -->
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="mTitle" hidden>
+  <div class="modal-back" data-close></div>
+  <div class="modal-card">
+    <button class="modal-x" data-close aria-label="إغلاق">✕</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
